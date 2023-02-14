@@ -1,0 +1,46 @@
+{
+    "Version": "1.0.0",
+    "ReleaseNotes": "ACTUALIZA",
+    "UrlUpdate": "https://bitbin.it/Lnp0mIf4/raw/",
+    "Sms": "https://bitbin.it/Lnp0mIf4/raw/",
+    "EmailFeedback": "ricardojve12@gmail.com",
+    "UrlContato": "https://chat.whatsapp.com/HkGDkmv4THYF6H14qJveH9",
+    "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+    "CheckUser": "true",
+    "UdpPort": "7200;7300;7400;7500;7600;7700",
+    "Servers": [
+      {
+        "Name": "|SERBITS|",
+        "TYPE": "PREMIUM",
+        "FLAG": "br.png",
+        "ServerIP": "74.50.95.36",
+        "CheckUser": "http://51.79.87.90:8181/checkUser",
+        "ServerPort": "80",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
+      }
+    ],
+    "Networks": [
+      {
+        "Name": "|🌟MULTI🌟|",
+        "FLAG": "br.png",
+        "Payload": "GET wss://d1gdi5hye2n1mo.cloudfront.net HTTP/1.1[crlf]Host: cdn.medallia.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+        "SNI": "",
+        "TlsIP": "cdn.medallia.com",
+        "ProxyIP": "cdn.medallia.com",
+        "ProxyPort": "80",
+        "Info": "Proxy"
+      },
+      {
+        "Name": "|NEW-SERVER|",
+        "FLAG": "br.png",
+        "Payload": "GET wss://d1gdi5hye2n1mo.cloudfront.net HTTP/1.1[crlf]Host: evaluaciones.edu.sv[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+        "SNI": "",
+        "TlsIP": "evaluaciones.edu.sv",
+        "ProxyIP": "evaluaciones.edu.sv",
+        "ProxyPort": "80",
+        "Info": "Proxy"
+      }
+    ]
+  }
