@@ -1,6 +1,6 @@
 {
-    "Version": "1.0.2",
-    "ReleaseNotes": "trabajando",
+    "Version": "1.0.3",
+    "ReleaseNotes": "Gracias por la espera",
     "UrlUpdate": "https://ricardojve12.github.io/conecta4g_sitio/UrlUpdate",
     "Sms": "https://ricardojve12.github.io/conecta4g_sitio/UrlSms",
     "EmailFeedback": "ricardojve12@gmail.com",
@@ -25,10 +25,10 @@
       {
         "Name": "|MULTI|",
         "FLAG": "br.png",
-        "Payload": "GET wss://d2pfhp6ohboiz1.cloudfront.net HTTP/1.1[crlf]Host: cdn.medallia.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+        "Payload": "GET wss://d2pfhp6ohboiz1.cloudfront.net HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
         "SNI": "",
-        "TlsIP": "cdn.medallia.com",
-        "ProxyIP": "cdn.medallia.com",
+        "TlsIP": "paquetesmiclaro.com",
+        "ProxyIP": "paquetesmiclaro.com",
         "ProxyPort": "80",
         "Info": "Proxy"
       },
