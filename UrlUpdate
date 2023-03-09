@@ -43,26 +43,6 @@
         "ProxyIP": "paquetesmiclaro.com",
         "ProxyPort": "80",
         "Info": "Proxy"
-      },
-      {
-        "Name": "|CLARO1|",
-        "FLAG": "br.png",
-        "Payload": "GET / HTTP/1.1[crlf]Host: jv.myventasuwu.store[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
-        "SNI": "",
-        "TlsIP": "",
-        "ProxyIP": "paquetesmiclaro.com",
-        "ProxyPort": "80",
-        "Info": "Proxy"
-      },
-      {
-        "Name": "GRATIS",
-        "FLAG": "tim",
-        "Payload": "GET / HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
-        "SNI": "jv.myventasuwu.store",
-        "TlsIP": "paquetesmiclaro.com",
-        "ProxyIP": "",
-        "ProxyPort": "",
-        "Info": "Tlsws"
       }
     ]
   }
