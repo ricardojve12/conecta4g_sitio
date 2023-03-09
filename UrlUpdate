@@ -1,5 +1,5 @@
 {
-    "Version": "1.0.4",
+    "Version": "1.0.5",
     "ReleaseNotes": "Gracias por la espera",
     "UrlUpdate": "https://ricardojve12.github.io/conecta4g_sitio/UrlUpdate",
     "Sms": "https://ricardojve12.github.io/conecta4g_sitio/UrlSms",
@@ -19,8 +19,20 @@
         "SSLPort": "443",
         "USER": "",
         "PASS": ""
+      },
+      {
+        "Name": "|VEGA|",
+        "TYPE": "FREE",
+        "FLAG": "br.png",
+        "ServerIP": "216.219.94.144",
+        "CheckUser": "http://74.50.95.36:8181/checkUser",
+        "ServerPort": "80",
+        "SSLPort": "443",
+        "USER": "",
+        "PASS": ""
       }
     ],
+    
     "Networks": [
       {
         "Name": "|MULTI|",
