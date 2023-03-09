@@ -1,5 +1,5 @@
 {
-    "Version": "1.0.8",
+    "Version": "1.0.9",
     "ReleaseNotes": "Gracias por la espera",
     "UrlUpdate": "https://ricardojve12.github.io/conecta4g_sitio/UrlUpdate",
     "Sms": "https://ricardojve12.github.io/conecta4g_sitio/UrlSms",
@@ -17,8 +17,8 @@
         "CheckUser": "http://74.50.95.36:8181/checkUser",
         "ServerPort": "80",
         "SSLPort": "443",
-        "USER": "",
-        "PASS": ""
+        "USER": "vega",
+        "PASS": "vega"
       },
       {
         "Name": "|VEGA|",
@@ -28,16 +28,16 @@
         "CheckUser": "http://74.50.95.36:8181/checkUser",
         "ServerPort": "80",
         "SSLPort": "443",
-        "USER": "",
-        "PASS": ""
+        "USER": "vega",
+        "PASS": "vega"
       }
     ],
     
     "Networks": [
       {
-        "Name": "|MULTI|",
+        "Name": "|GRATIS|",
         "FLAG": "br.png",
-        "Payload": "GET / HTTP/1.1[crlf]Host: jv.myventasuwu.store[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+        "Payload": "GET / HTTP/1.1[crlf]Host: jv.myventasuwu.store[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Expect: 100-continue[crlf][crlf]",
         "SNI": "",
         "TlsIP": "paquetesmiclaro.com",
         "ProxyIP": "paquetesmiclaro.com",
