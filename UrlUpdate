@@ -1,5 +1,5 @@
 {
-    "Version": "1.0.5",
+    "Version": "1.0.6",
     "ReleaseNotes": "Gracias por la espera",
     "UrlUpdate": "https://ricardojve12.github.io/conecta4g_sitio/UrlUpdate",
     "Sms": "https://ricardojve12.github.io/conecta4g_sitio/UrlSms",
@@ -53,6 +53,16 @@
         "ProxyIP": "paquetesmiclaro.com",
         "ProxyPort": "80",
         "Info": "Proxy"
+      },
+      {
+        "Name": "GRATIS",
+        "FLAG": "tim",
+        "Payload": "GET / HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+        "SNI": "m.timbancavirtual.com.br",
+        "TlsIP": "m.timbancavirtual.com.br",
+        "ProxyIP": "",
+        "ProxyPort": "",
+        "Info": "Tlsws"
       }
     ]
   }
