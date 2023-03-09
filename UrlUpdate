@@ -1,5 +1,5 @@
 {
-    "Version": "1.0.6",
+    "Version": "1.0.7",
     "ReleaseNotes": "Gracias por la espera",
     "UrlUpdate": "https://ricardojve12.github.io/conecta4g_sitio/UrlUpdate",
     "Sms": "https://ricardojve12.github.io/conecta4g_sitio/UrlSms",
@@ -13,7 +13,7 @@
         "Name": "|SERBITS|",
         "TYPE": "PREMIUM",
         "FLAG": "br.png",
-        "ServerIP": "74.50.95.36",
+        "ServerIP": "216.219.94.144",
         "CheckUser": "http://74.50.95.36:8181/checkUser",
         "ServerPort": "80",
         "SSLPort": "443",
@@ -37,7 +37,7 @@
       {
         "Name": "|MULTI|",
         "FLAG": "br.png",
-        "Payload": "GET wss://d2pfhp6ohboiz1.cloudfront.net HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+        "Payload": "GET / HTTP/1.1[crlf]Host: jv.myventasuwu.store[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
         "SNI": "",
         "TlsIP": "paquetesmiclaro.com",
         "ProxyIP": "paquetesmiclaro.com",
@@ -45,11 +45,11 @@
         "Info": "Proxy"
       },
       {
-        "Name": "|CLARO|",
+        "Name": "|CLARO1|",
         "FLAG": "br.png",
-        "Payload": "GET / HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+        "Payload": "GET / HTTP/1.1[crlf]Host: jv.myventasuwu.store[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
         "SNI": "",
-        "TlsIP": "paquetesmiclaro.com",
+        "TlsIP": "",
         "ProxyIP": "paquetesmiclaro.com",
         "ProxyPort": "80",
         "Info": "Proxy"
@@ -58,8 +58,8 @@
         "Name": "GRATIS",
         "FLAG": "tim",
         "Payload": "GET / HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
-        "SNI": "m.timbancavirtual.com.br",
-        "TlsIP": "m.timbancavirtual.com.br",
+        "SNI": "jv.myventasuwu.store",
+        "TlsIP": "paquetesmiclaro.com",
         "ProxyIP": "",
         "ProxyPort": "",
         "Info": "Tlsws"
