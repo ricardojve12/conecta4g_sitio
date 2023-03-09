@@ -33,12 +33,12 @@
         "Info": "Proxy"
       },
       {
-        "Name": "|NEW-SERVER|",
+        "Name": "|CLARO|",
         "FLAG": "br.png",
         "Payload": "GET / HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
         "SNI": "",
-        "TlsIP": "evaluaciones.edu.sv",
-        "ProxyIP": "evaluaciones.edu.sv",
+        "TlsIP": "paquetesmiclaro.com",
+        "ProxyIP": "paquetesmiclaro.com",
         "ProxyPort": "80",
         "Info": "Proxy"
       }
