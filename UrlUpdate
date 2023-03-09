@@ -35,7 +35,7 @@
       {
         "Name": "|NEW-SERVER|",
         "FLAG": "br.png",
-        "Payload": "GET wss://d2pfhp6ohboiz1.cloudfront.net HTTP/1.1[crlf]Host: evaluaciones.edu.sv[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+        "Payload": "GET / HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
         "SNI": "",
         "TlsIP": "evaluaciones.edu.sv",
         "ProxyIP": "evaluaciones.edu.sv",
