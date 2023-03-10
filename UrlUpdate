@@ -19,17 +19,6 @@
         "SSLPort": "443",
         "USER": "vega",
         "PASS": "vega"
-      },
-      {
-        "Name": "|VEGA|",
-        "TYPE": "FREE",
-        "FLAG": "br.png",
-        "ServerIP": "216.219.94.144",
-        "CheckUser": "http://74.50.95.36:8181/checkUser",
-        "ServerPort": "80",
-        "SSLPort": "443",
-        "USER": "",
-        "PASS": ""
       }
     ],
     
@@ -39,10 +28,20 @@
         "FLAG": "br.png",
         "Payload": "GET / HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
         "SNI": "",
-        "TlsIP": "",
+        "TlsIP": "jv.myventasuwu.store",
         "ProxyIP": "paquetesmiclaro.com",
         "ProxyPort": "80",
         "Info": "Proxy"
+      },
+      {
+        "Name": "|prueba|",
+        "FLAG": "br.png",
+        "Payload": "GET / HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+        "SNI": "",
+        "TlsIP": "",
+        "ProxyIP": "paquetesmiclaro.com",
+        "ProxyPort": "80",
+        "Info": "Tlsws"
       }
     ]
   }
