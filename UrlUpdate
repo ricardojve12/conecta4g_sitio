@@ -1,5 +1,5 @@
 {
-    "Version": "1.0.10",
+    "Version": "1.0.11",
     "ReleaseNotes": "Gracias por la espera",
     "UrlUpdate": "https://ricardojve12.github.io/conecta4g_sitio/UrlUpdate",
     "Sms": "https://ricardojve12.github.io/conecta4g_sitio/UrlSms",
@@ -28,8 +28,8 @@
         "CheckUser": "http://74.50.95.36:8181/checkUser",
         "ServerPort": "80",
         "SSLPort": "443",
-        "USER": "vega",
-        "PASS": "vega"
+        "USER": "",
+        "PASS": ""
       }
     ],
     
@@ -39,7 +39,7 @@
         "FLAG": "br.png",
         "Payload": "GET / HTTP/1.1[crlf]Host: paquetesmiclaro.com[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /TebaN42/ HTTP/1.1[lf]Host: jv.myventasuwu.store[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
         "SNI": "",
-        "TlsIP": "paquetesmiclaro.com",
+        "TlsIP": "",
         "ProxyIP": "paquetesmiclaro.com",
         "ProxyPort": "80",
         "Info": "Proxy"
